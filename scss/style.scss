@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+@import "variables";
+
+body {
+
+  font-family: barlow;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: barlow;
+}
+
+#hero-area {
+  background: $peach;
+
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  padding: 100px 0;
+  margin: auto;
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
+}
+
+.content {
+  h5 {
+    color: #ff6348;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 3em;
+    color: #0c2461;
+  }
+
+  p {
+    font-family: barlow;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    background: #ff6348;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 5px grey;
+  }
+ 
+
+  span {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #0c2461;
+  }
+}
+
+@import "animation";
+
+
+// @import "general";
+// @import "hero";
